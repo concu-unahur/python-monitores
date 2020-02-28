@@ -1,6 +1,6 @@
 # Monitores en Python
 
-La idea básica de un monitor es que funciona como un `Lock` pero que puede ser adquirido cuando se da una determinada condición:
+La idea básica de un monitor es que funciona como un `Lock` pero que puede esperar a una determinada condición:
 
 ```python
 monitor = threading.Condition()
